@@ -1,5 +1,7 @@
 # gatsby-plugin-rollbar-deploy
-A Gatsby plugin that posts to Rollbar's deploy endpoint with the git short revision hash as the revision in Gatsby's onPostBuild workflow step. Only triggered in production builds.
+A Gatsby plugin that posts to Rollbar's deploy endpoint to signal your site has had its code updated.
+It supplies the git short revision hash as the revision in Gatsby's onPostBuild workflow step.
+Only triggered in production builds.
 
 ## Configuration
 

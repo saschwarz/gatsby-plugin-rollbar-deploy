@@ -53,9 +53,9 @@ exports.onPostBuild = async function (_, pluginOptions) {
 
     results = await rollbarDeploy(payload)
     if (results.err) {
-      const msg = `Rollbar deploy error IGNORED: ${JSON.stringify(results)}`
+      const msg = `Rollbar deploy error: ${JSON.stringify(results)}`
       if (pluginOptions.ignoreErrors) {
-        console.error(msg)
+        console.error('IGNORING', msg)
       } else {
         throw new Error(msg)
       }
