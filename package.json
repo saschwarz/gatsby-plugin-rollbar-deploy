@@ -1,0 +1,16 @@
+{
+  "name": "gatsby-plugin-rollbar-deploy",
+  "version": "1.0.0",
+  "description": "A Gatsby plugin that posts to Rollbar's deploy endpoint with the git short revision in Gatsby's onPostBuild workflow step. Only triggered in production builds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "rollbar",
+    "deploy"
+  ],
+  "author": "Steve Schwarz <steve@agilitynerd.com> (http://tech.agilitynerd.com/)",
+  "license": "MIT"
+}
